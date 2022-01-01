@@ -1,3 +1,8 @@
+# This is a small test website. It's not usufull for anything else than my deployment tests. 
+
+You probably don't neet this.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
