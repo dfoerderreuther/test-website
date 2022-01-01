@@ -1,28 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-import 'react-clock/dist/Clock.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion';
 
-
 function App() {
-  const [value, setValue] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(
-      () => setValue(new Date()),
-      1000
-    );
-
-    return () => {
-      clearInterval(interval);
-    }
-  }, []);
 
   return (
     <Container className="p-3">
